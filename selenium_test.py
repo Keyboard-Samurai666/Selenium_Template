@@ -2,7 +2,8 @@
 from selenium import webdriver
 
 # Create a webdriver object and specify the path to the chromedriver executable
-driver = webdriver.Chrome('/home/austin/scripts_python/resources/chromedriver_linux64(1)/chromedriver')
+# You may need to download the chromedriver for your version of chrome and move it to the folder with this script
+driver = webdriver.Chrome('PATH TO CHROMEDRIVE EXECUTABLE')
 
 # Choose a website and store it in the web_site variable
 web_site = input("What is the site name?:\n")
